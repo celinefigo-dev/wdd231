@@ -1,13 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD231</title>
+    <meta name="author" content="Celine Mafigu">
+    <meta name="description" content="WDD 131 Celine Mafigu's Home Page">
+    <title>WDD 231 - Web Frontend Development - Celine Mafigu</title>
+    <link rel="icon" href="images" type="image/x-icon">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
 </head>
-<body>
-    <h1>WDD231-Celine Mafigu</h1>
 
+<body>
+    <header>
+        <div class="header">
+            <div class="header__logo">
+                <img src="images" alt="" width="100" height="100">
+                <h2>Web and Computer Programming 1</h2>
+            </div>
+
+            <button id="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+        </div>
+
+        <nav id="nav-menu">
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="chamber/directory.html">Chamber</a></li>
+                <li><a href="#">Final</a></li>
+                <li><a href="https://github.com/celinefigo-dev">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/celinemafigu">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <section class="section__intro">
+            <!--  Course Work   -->
+            <section>
+                <h2 class="section__head">About Me</h2>
+                <p>
+                    I am an aspiring web developer who loves to learn about html, css
+                    and javascript!. l am passionate about learning new technologies and turning ideas into
+                    websites.With great passion for learning and a
+                    I believe that pursuing higher education is the key to success!.I am from Harare, Zimbabwe but
+                    currently staying in Cape Town, South Africa. I love to travel and explore new places. I am
+                    also a big fan of music.
+                </p>
+
+            </section>
+
+            <!-- Student photo-->
+            <section class="BYU_Student">
+                <h2 class="section__head">Celine Mafigu</h2>
+
+                <div class="BYU_Student">
+                    <img src="images/celinem.webp" style="width: 60%; height: 30%; object-fit: cover;" alt="photo--" />
+                    <p> Celine Mafigu</p>
+                </div>
+            </section>
+        </section>
+
+
+
+        <section class="section__web">
+            <h2 class="section__head">Web and Computer Programming Certificate</h2>
+
+            <div class="section__course">
+                <button data-filter="all">All</button>
+                <button data-filter="CSE">CSE</button>
+                <button data-filter="WDD">WDD</button>
+            </div>
+
+            <ul id="course-list" class="section__courses"></ul>
+            <p id="total-credits"><strong>Total Credits:</strong> 0</p>
+
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <h2>©<span id="currentyear"></span> 🎻 Celine Mafigu 🎻Zimbabwe</h2>
+        <p class="lastmodified">
+            Last Modified: <span id="lastModified"></span>
+        </p>
+    </footer>
+    </body>
     
-</body>
-</html>
+    </html>
