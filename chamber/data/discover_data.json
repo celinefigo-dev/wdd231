@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Victoria Flls",
+        "image": "images/Victoria_falls1.webp",
+        "address": "Victoria Falls, Matebeleland, Zimbabwe",
+        "description": "It is one of the largest waterfalls in the world, found between Zimbabwe and Zambia. It is called “The Smoke That Thunders” because of its powerful sound and rising mist."
+    },
+    {
+        "title": "Chinhoyi Caves",
+        "image": "images/chinhoyi_caves.webp",
+        "address": "Chinhoyi, Mashonaland, Zimbabwe",
+        "description": "Chinhoyi Caves are a stunning group of limestone caves in Zimbabwe, famous for their deep blue pool called the Sleeping Pool. The clear water and natural cave formations make it a unique and beautiful place to visit."
+    },
+    {
+        "title": "Devil pool",
+        "image": "images/devil's_pool.webp",
+        "address": "Victoria Falls, Matebeleland, Zimbabwe",
+        "description": "It is a natural rock pool right on the edge of Victoria Falls, where visitors can swim safely during the dry season. It gives a thrilling view over the waterfall, making it one of the most exciting experiences in Africa."
+    },
+    {
+        "title": "Nyanga National Park",
+        "image": "images/Nyanga_national_park.webp",
+        "address": "Nyanga, Mutare Zimbabwe",
+        "description": "It is known for its beautiful mountains, waterfalls, and the country’s highest peak, Mount Nyangani. It’s a perfect place for hiking, wildlife viewing, and enjoying peaceful scenery."
+    },
+    {
+        "title": "zambezi National Part",
+        "image": "images/zambezi_national_park.webp",
+        "address": "Kariba, Mashonaland, Zimbabwe",
+        "description": "A beautiful wildlife area, home to elephants, lions, giraffes, and many birds. Visitors can enjoy game drives, boat cruises, and stunning views of the Zambezi River."
+    },
+    {
+        "title": "Lake Kariba",
+        "image": "images/lake_kariba.webp",
+        "address": "Kariba, Mashonaland, Zimbabwe",
+        "description": "It is one of the world’s largest man-made lakes, stretching between Zimbabwe and Zambia. It is famous for its beautiful sunsets, houseboat cruises, and rich wildlife like hippos, crocodiles, and many fish.."
+    },
+    {
+        "title": "Zambezi River Cruise",
+        "image": "images/zambezi_river_cruise.webp",
+        "address": "Kariba, Mashonaland, Zimbabwe",
+        "description": "It is the fourth longest river in Africa, flowing through six countries before reaching the Indian Ocean. It is famous for Victoria Falls and offers exciting activities like river cruises, fishing, and wildlife viewing."
+    },
+    {
+        "title": "Matobo National Park",
+        "image": "images/matobo_national_park.webp",
+        "address": "Masvingo, Mashonaland east, Zimbabwe",
+        "description": "It is famous for its striking granite hills, ancient rock paintings, and beautiful landscapes. Visitors can enjoy game drives, see rhinos, and explore the cultural history of the area."
+    }
+]
