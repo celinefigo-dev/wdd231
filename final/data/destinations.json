@@ -38,7 +38,7 @@
     },
     {
         "id":2,
-        "title": "Zambezi National Part",
+        "name": "Zambezi National Part",
         "country": "Zambia",
         "description": "A beautiful wildlife area, home to elephants, lions, giraffes, and many birds. Visitors can enjoy game drives, boat cruises, and stunning views of the Zambezi River.",
         "image": "images/zambezi_national_park.png"
@@ -75,7 +75,7 @@
     },
     {
         "id": 2,
-        "title": "Devil pool",
+        "name": "Devil's Pool",
         "country": "Zambia",
         "description": "It is a natural rock pool right on the edge of Victoria Falls, where visitors can swim safely during the dry season. It gives a thrilling view over the waterfall, making it one of the most exciting experiences in Africa.",
         "image": "images/devil_pool.webp"
