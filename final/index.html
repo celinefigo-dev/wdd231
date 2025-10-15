@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Travel Tour | Home</title>
+    <meta name="description"
+        content="Explore curated world travel packages. Discover destinations around the globe with World Travel Tour." />
+    <meta name="author" content="Celine Mafigu" />
+    <meta property="og:title" content="World Travel Tour | Home" />
+    <meta property="og:description" content="Explore curated world travel packages." />
+    <meta property="og:image" content="images/hero.jpg" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Raleway:wght@300;500;700&display=swap"
+        rel="stylesheet" />
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/data.js" defer></script>
+    <script src="scripts/localStorageUtil.js" defer></script>
+    <script src="scripts/nav.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/world-tour-logo.webp" alt="World Travel Tour Logo" />
+            <h1>World Travel Tour</h1>
+        </div>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        </nav>
+    </header>
+
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Explore the World with Us</h2>
+            <p>Your next adventure awaits — discover, experience, and remember.</p>
+            <a href="destinations.html" class="btn">View Destinations</a>
+        </section>
+
+    <main>
+   
+        <section id="weather">
+        <h2>Weather in South Africa</h2>
+            <section class="info-section">
+        
+        <div class="weather_card" id="currentWeather">
+            <h3>Current Weather</h3>
+        <div class="weather_icon">
+            <img src="images/weather-icon.png" alt="weather-icon" width="50" height="50">
+            <div id="weatherNow">Loading...</div>
+            </div>
+        </div>
+        
+            <div class="weather_card" id="forecast">
+                <h3>Weather Forecast</h3>
+                <div id="weatherForecast">Loading...</div>
+            </div>
+            </section>
+
+        <!-- Popular Tours -->
+        <section class="tours">
+            <h2>Popular Tours</h2>
+            <div class="tour-cards">
+                <div class="card" data-id="0">
+                    <img src="images/paris.webp" alt="Paris Tour" loading="lazy" />
+                    <h3>Paris, France</h3>
+                    <p>Discover the city of love and lights.</p>
+                </div>
+
+                <div class="card" data-id="1">
+                    <img src="images/bali.webp" alt="Bali Tour" loading="lazy" />
+                    <h3>Bali, Indonesia</h3>
+                    <p>Relax on the beaches of paradise.</p>
+                </div>
+
+                <div class="card" data-id="2">
+                    <img src="images/capetown.webp" alt="Cape Town Tour" loading="lazy" />
+                    <h3>Cape Town, South Africa</h3>
+                    <p>Adventure meets beauty in Africa’s gem.</p>
+                </div>
+
+                <div class="card" data-id="3">
+                    <img src="images/dubai-safaris.jpeg" alt="Dubai Tour" loading="lazy">
+                    <h3>Deira, Dubai</h3>
+                    <p>Experience several desert pursuits in one outing</p>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+<footer>
+    <div class="footer__logo">
+        <div>
+            <img src="images/world-tour-logo.webp" alt="World tour Logo" width="100" height="100">
+        </div>
+        <div>
+            <h3>World Travel Tours</h3>
+            <p>World Tourism, South Africa’s</p>
+            <p>harzelceline@gmail.com</p>
+            <p>+27832539518</p>
+        </div>
+    </div>
+    <!-- Social Icons -->
+    <div class="social-icons">
+        <img src="images/facebook.webp" alt="Facebook">
+        <img src="images/twitter.webp" alt="X">
+        <img src="images/linkedin.webp" alt="LinkedIn">
+    </div>
+    <div>
+        <p>WDD231 Class Final Project</p>
+        <p>Celine Mafigu</p>
+        <p>&copy; <span id="year"></span> World Tourism/p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </div>
+</footer>
+<!-- End of Footer -->
+</body>
+
+</html>
+
+</html>

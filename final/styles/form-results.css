@@ -1,0 +1,25 @@
+.submission-data {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+.submission-data p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.submission-data .btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    background: #0077b6;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.submission-data .btn:hover {
+    background: #023e8a;
+}

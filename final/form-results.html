@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission Result</title>
+    <meta name="description" content="Your contact form submission result.">
+    <meta name="author" content="Celine Mafigu">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">World Travel Tour</h1>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="attributions.html">Attributions</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h2>Thank you for contacting us!</h2>
+            <p>Here is what you submitted:</p>
+        </section>
+        <section class="submission-data">
+            <p><strong>Name:</strong> <span id="result-name"></span></p>
+            <p><strong>Email:</strong> <span id="result-email"></span></p>
+            <p><strong>Message:</strong> <span id="result-message"></span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 World Travel Tour | Designed by Celine Mafigu</p>
+        <p><a href="attributions.html">Attributions</a></p>
+    </footer>
+
+    <script type="module">
+        // parse query string
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById('result-name').textContent = params.get('name') || '';
+        document.getElementById('result-email').textContent = params.get('email') || '';
+        document.getElementById('result-message').textContent = params.get('message') || '';
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+[
+    {
+        "id": 6,
+        "name": "Reykjavik, Iceland",
+        "country": "Iceland",
+        "image": "images/reykjavik.jpeg",
+        "description": "Northern lights and geothermal wonders."
+    },
+    {
+        "id": 7,
+        "name": "Cusco, Peru",
+        "country": "Peru",
+        "image": "images/cusco.jpeg",
+        "description": "Gateway to Machu Picchu."
+
+    },
+    {
+        "id": "1",
+        "name": "Paris",
+        "country": "France",
+        "description": "Discover the city of love — Eiffel Tower, art, and fine cuisine.",
+        "image": "images/paris.webp"
+
+    },
+    {
+        "id": 4,
+        "name": "Bali",
+        "country": "Indonesia",
+        "description": "Relax on sandy beaches, explore temples, and enjoy tropical beauty.",
+        "image": "images/bali.webp"
+    },
+    {
+        "id": 2,
+        "name": "Cape Town",
+        "country": "South Africa",
+        "description": "Adventure meets beauty — hike Table Mountain and visit the Cape Peninsula.",
+        "image": "images/capetown.webp"
+    },
+    {
+        "id":2,
+        "title": "Zambezi National Part",
+        "country": "Zambia",
+        "description": "A beautiful wildlife area, home to elephants, lions, giraffes, and many birds. Visitors can enjoy game drives, boat cruises, and stunning views of the Zambezi River.",
+        "image": "images/zambezi_national_park.png"
+    },
+    {
+        "id": 3,
+        "name": "New York City",
+        "country": "USA",
+        "description": "Experience the city that never sleeps — Times Square, Broadway, and Central Park.",
+        "image": "images/new-york.webp"
+    
+    },
+    {
+        "id": 5,
+        "name": "Tokyo",
+        "country": "Japan",
+        "description": "A perfect blend of technology and tradition — from Shibuya to ancient temples.",
+        "image": "images/tokyo.jpeg"
+    
+    },
+    {
+        "id": 1,
+        "name": "Victoria Falls",
+        "country": "Zimbabwe",
+        "description": "It is one of the largest waterfalls in the world, found between Zimbabwe and Zambia. It is called “The Smoke That Thunders” because of its powerful sound and rising mist.",
+        "image": "images/victoria_falls.webp"
+    },
+    {
+        "id": 3,
+        "name": "Chinhoyi Caves",
+        "country": "Zimbabwe", 
+        "description": "Chinhoyi Caves are a stunning group of limestone caves in Zimbabwe, famous for their deep blue pool called the Sleeping Pool. The clear water and natural cave formations make it a unique and beautiful place to visit.",
+        "image": "images/chinhoyi_caves.webp"
+    },
+    {
+        "id": 2,
+        "title": "Devil pool",
+        "country": "Zambia",
+        "description": "It is a natural rock pool right on the edge of Victoria Falls, where visitors can swim safely during the dry season. It gives a thrilling view over the waterfall, making it one of the most exciting experiences in Africa.",
+        "image": "images/devil_pool.webp"
+    },
+    {
+        "id": 3,
+        "name": "Dubai Safari",
+        "country": "Dubai",
+        "description": "Experience several desert pursuits in one outing",
+        "image": "images/dubai-safaris.jpeg"
+    },
+
+    {
+        "id": 2,
+        "name": "Legoland",
+        "country": "Dubai",
+        "description": "The most fun place to visit with kids",
+        "image": "images/dubai.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Giza Pyramids",
+        "country": "Egypt",
+        "description": "Experience the home of the ancient Pharaohs,a destination full of dazzling temples and tombs that will wow you..",
+        "image": "images/egypt.jpeg"
+    },
+
+    {
+        "id": 1,
+        "name": "Phuket Island",
+        "country": "Thailand",
+        "description": "Experience the most stunning beauty, magical history, and rich, cultural traditions..",
+        "image": "images/thailand.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Grand Canyon National Park",
+        "country": "Arizona",
+        "description": "Experience the outdoor activities such as hiking, overnight backpacking, cycling, photography and scenic drives.",
+        "image": "images/arizona.jpg"
+    }
+
+
+]
+
+
+        
