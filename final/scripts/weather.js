@@ -1,5 +1,5 @@
 const apiKey = 'e7716fadbae9fffeef88a0556d4bf5bc';
-const city = 'Harare';
+const city = 'Cape Town';
 
 const weatherNowEl = document.getElementById('weatherNow');
 const weatherForecastEl = document.getElementById('weatherForecast');

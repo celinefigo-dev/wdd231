@@ -8,9 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-/**
- * Dynamically sets the last modified date of the document in the HTML element with id "lastModified".
- */
+
 document.addEventListener('DOMContentLoaded', () => {
     const lastModifiedP = document.getElementById('lastModified');
     if (lastModifiedP) {
