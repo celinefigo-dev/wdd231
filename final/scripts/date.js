@@ -1,5 +1,3 @@
-
-
 /**
  * Dynamically sets the current year in the HTML element with id "currentyear".
  */
