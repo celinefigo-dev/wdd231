@@ -1,23 +1,15 @@
-
-const FAVORITES_KEY = 'wt_favorites';
+const FAVORITES_KEY = 'worldTravelFavorites';
 
 export function getFavorites() {
-    const raw = localStorage.getItem(FAVORITES_KEY);
-    if (!raw) return [];
-    try {
-        return JSON.parse(raw);
-    } catch {
-        return [];
-    }
+    return JSON.parse(localStorage.getItem(FAVORITES_KEY)) || [];
 }
 
 export function toggleFavorite(id) {
-    const favs = getFavorites();
-    const idx = favs.indexOf(id);
-    if (idx === -1) {
-        favs.push(id);
+    let favorites = getFavorites();
+    if (favorites.includes(id)) {
+        favorites = favorites.filter(fav => fav !== id);
     } else {
-        favs.splice(idx, 1);
+        favorites.push(id);
     }
-    localStorage.setItem(FAVORITES_KEY, JSON.stringify(favs));
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
 }

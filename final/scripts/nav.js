@@ -1,10 +1,6 @@
-const menuToggle = document.getElementById('menu-toggle');
-const navLinks = document.querySelector('.nav-links');
+const navToggle = document.getElementById('nav-toggle');
+const navMenu = document.getElementById('nav-menu');
 
-export function initNav() {
-    if (menuToggle) {
-        menuToggle.addEventListener('click', () => {
-            navLinks.classList.toggle('show');
-        });
-    }
-}
+navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('open');
+});

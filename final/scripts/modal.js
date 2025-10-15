@@ -1,14 +1,3 @@
-console.log("Modal script loaded");
-
-document.addEventListener('DOMContentLoaded', () => {
-    const testBtn = document.createElement('button');
-    testBtn.textContent = 'Test Modal';
-    document.body.appendChild(testBtn);
-    testBtn.addEventListener('click', () => {
-        openModal();
-    });
-});
-
 import { getFavorites, toggleFavorite } from './localStorageUtil.js';
 
 const overlay = document.getElementById('modal-overlay');
@@ -37,11 +26,7 @@ export function updateModal(dest, id) {
     countryEl.textContent = `Country: ${dest.country}`;
 
     const favs = getFavorites();
-    if (favs.includes(id.toString())) {
-        favoriteBtn.textContent = '⭐ Remove Favorite';
-    } else {
-        favoriteBtn.textContent = '☆ Add Favorite';
-    }
+    favoriteBtn.textContent = favs.includes(id.toString()) ? '⭐ Remove Favorite' : '☆ Add Favorite';
 
     favoriteBtn.onclick = () => {
         toggleFavorite(id.toString());
@@ -49,13 +34,9 @@ export function updateModal(dest, id) {
     };
 }
 
-if (closeBtn) {
-    closeBtn.addEventListener('click', closeModal);
-}
+if (closeBtn) closeBtn.addEventListener('click', closeModal);
 if (overlay) {
     overlay.addEventListener('click', event => {
-        if (event.target === overlay) {
-            closeModal();
-        }
+        if (event.target === overlay) closeModal();
     });
 }
